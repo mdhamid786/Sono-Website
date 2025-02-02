@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Doctor Sonography Management System
 
-## Getting Started
+A web application built with **Next.js** and **TypeScript** to manage sonography appointments, store sonography reports, and facilitate chat communication between doctors and patients. The system also supports a **one-to-one** and **one-to-many** chat feature, ensuring smooth communication and data management.
 
-First, run the development server:
+## Features
+- **Sonography Archive**: Store, view, and manage sonography reports.
+- **Appointment Management**: Schedule and manage appointments for sonography.
+- **Chat**:
+  - **One-to-One Chat**: Enable direct messaging between doctors and patients.
+  - **One-to-Many Chat**: Facilitate group chats, e.g., with medical staff or multiple patients.
+- **Real-time Chat** using Firebase for instant communication.
+
+## Tech Stack
+- **Frontend**: Next.js, TypeScript
+- **Backend/Database**: Firebase (Authentication, Firestore, Real-time Database)
+- **UI/UX**: Styled-components (or your chosen CSS framework)
+
+## Installation
+
+Clone the repository and install the dependencies:
 
 ```bash
-npm run dev
+git clone https://github.com/your-username/sonography-management.git
+cd sonography-management
+npm install
 # or
-yarn dev
+yarn install
 # or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+pnpm install
