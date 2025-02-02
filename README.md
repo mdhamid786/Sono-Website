@@ -1,3 +1,10 @@
+Link Demo : https://sono-website.vercel.app/
+
+Image for demo
+
+![{7FA46E15-FB50-43DF-A4A7-BA6584AE881E}](https://github.com/user-attachments/assets/84251888-c15a-44cd-ac0f-50e3fc535b04)
+
+
 # Doctor Sonography Management System
 
 A web application built with **Next.js** and **TypeScript** to manage sonography appointments, store sonography reports, and facilitate chat communication between doctors and patients. The system also supports a **one-to-one** and **one-to-many** chat feature, ensuring smooth communication and data management.
